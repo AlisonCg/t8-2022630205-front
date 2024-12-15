@@ -15,5 +15,4 @@ class WSClient {
     }
 }
 
-// Cambiar el URL base a la dirección de tus funciones en Azure
-const cliente = new WSClient("http://localhost:7071/api");
+const cliente = new WSClient("https://t8-2022630205-a.azurewebsites.net/api");
