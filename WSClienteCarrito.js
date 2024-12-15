@@ -16,4 +16,4 @@ class WSClient {
     }
 }
 
-const cliente = new WSClient("https://t8-12345678-a.azurewebsites.net/api");
+const cliente = new WSClient("https://t8-2022630205-a.azurewebsites.net/api");
