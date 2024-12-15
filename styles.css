@@ -1,0 +1,105 @@
+/*T7-2022630205 | Alicia Cortés Gamboa*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+header {
+    background-color: #593A2E;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav button {
+    margin: 0.5rem;
+    padding: 0.75rem;
+    background-color: #F2D5A0;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #edb95a;
+}
+
+main {
+    padding: 1rem;
+}
+
+.pantalla {
+    display: none;
+    text-align: center;
+}
+
+.miniatura {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.articulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.detalle {
+    margin-left: 10px;
+}
+
+.elegant-button {
+    background-color: #593A2E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elegant-button:hover {
+    background-color: #a04b2e;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.elegant-button:active {
+    transform: translateY(0);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    padding: 10px;
+}
+
+.elegant-button2 {
+    background-color: #8C6658;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.elegant-button2:hover {
+    background-color: #8d472e;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
