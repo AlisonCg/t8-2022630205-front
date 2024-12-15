@@ -7,7 +7,8 @@ class WSClient {
         const response = await fetch(`${this.baseURL}/${endpoint}`, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "x-functions-key": "Fj4ZfUfvxmfYsNeBy6y4kHWUgoQPdWqy9CONgEf004-gAzFuXSI8Mg=="
             },
             body: JSON.stringify(data)
         });
@@ -15,4 +16,4 @@ class WSClient {
     }
 }
 
-const cliente = new WSClient("https://t8-2022630205-a.azurewebsites.net/api");
+const cliente = new WSClient("https://t8-12345678-a.azurewebsites.net/api");
